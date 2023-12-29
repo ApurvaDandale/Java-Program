@@ -14,7 +14,7 @@ class User {
     }
 }
 class Employee extends User {
-	double Salary=1400;
+	double Salary=1400; 
 	public void setsalary(double Salary)
 	{
 		this.Salary=Salary;
@@ -35,62 +35,4 @@ public class Main{
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//package CollectionEx;
-//class User{
-//	public int id;
-//	public	String Name;
-//	
-//	public User(int id,String name) {
-//		this.id=id;
-//		this.Name=name;
-//		System.out.println("id: "+id+" name: "+name);
-//	}
-//}
-//class Emp extends User{
-//	
-//	double s=2000.0;
-//	public Emp(int id, String name) {
-//		super(id, name);
-//		
-//	}
-//	
-//	public void Sallary() {
-//	     double ss=s*12;
-//	     System.out.println("Annual Sallary : "+ss);
-//	}		
-//}
-//
-//class Employee{
-//	public static void main(String[] args) {
-////		
-//		Emp e=new Emp(1,"Arpit");
-//		e.Sallary();
-//		
-//	}
-//}
 
